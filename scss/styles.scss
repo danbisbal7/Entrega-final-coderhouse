@@ -1,0 +1,229 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// hojas secundarias
+
+@import "variables.scss";
+@import "mixin.scss";
+@import "extend.scss";
+
+// nesting 
+
+body {
+    background-color: $color-principal;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* estilos del header */
+
+header {
+    background-color: $color-secundario;
+    padding: 10px;
+    display: block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    height: 20vh; 
+
+
+    .encabezado-titulo {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: auto;
+        justify-items: center;
+        h1 {
+            font-size: $titulo-principal;
+            text-shadow: 2px 2px 5px $color-terciario;
+            font-weight: bold;
+            a {
+                text-decoration: none;
+                color: $color-sombra;
+            }
+        }
+        img {
+            width: 45px;
+            height: 45px;
+            align-self: center;
+            animation: rotate 1.5s linear infinite;
+        }
+        @keyframes rotate {
+            from {
+              transform: rotate(0);
+            }
+          
+            to {
+              transform: rotate(360deg);
+            }
+        }
+    
+        h2 {
+            font-size: $subtitulo-principal;
+            text-shadow: 2px 2px 5px $color-terciario;
+        }
+    }
+    .redes-sociales, .suscripcion-boton, .menu-navegacion {
+        display: none;
+    }
+}
+
+/* estilos del main */
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+
+    .main-texto p {
+        text-align: justify;
+        padding: 1rem 0;
+    }
+
+
+    // estilos del index - aside 
+
+    aside {
+        background-color: $color-sub-hoover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem;
+
+        .aside-titulo {
+            margin: 20px;
+            h3 {
+                @include estilos-titulos-h3;
+            }
+        }
+
+        p {
+            text-align: justify;
+            margin-bottom: 1rem;
+            padding: 1rem 0;
+            }
+        }
+    
+
+    
+
+    // titulos de pages
+
+    .noticias-titulo, .trailers-titulo, .galeria-titulo, .contacto-titulo, .suscribete-titulo {
+        h3 {
+            @include estilos-titulos-h3;
+        }
+    } 
+
+    // ancho de img 
+    .main-thumb, .aside-noticia, .galeria-contenedor-foto, .noticias-main {
+        img {
+            width: 100%;
+        }
+    }
+
+    // estilos de pagina noticias 
+    .noticias-main {
+        h4 {
+            @include estilos-titulos-h4;
+        }
+
+        p {
+            text-align: justify;
+            margin-bottom: 3rem;
+            border-bottom: solid 2px $color-terciario;
+            padding-bottom: 2rem;
+        }
+    }
+
+    // estilos pagina trailers 
+
+    .trailers-contenedor-video {
+        iframe {
+            width: 100%;
+        }
+    }
+    .trailers-contenedor-titulo {
+        h4 {
+            @include estilos-titulos-h4;
+            margin-bottom: 3rem;
+            border-bottom: solid 2px $color-terciario
+        }
+    }
+
+    // estilos pagina galeria
+
+    .galeria-contenedor-descripcion {
+        p {
+            text-align: justify;
+            margin-bottom: 3rem;
+            border-bottom: solid 2px $color-terciario;
+            padding: 2rem 0;
+        }
+    }
+
+    // estilos pagina contacto 
+
+    .contacto-contenido {
+        p {
+            text-align: justify;
+            padding: 0.5rem 0;
+            .bold {
+                font-weight: bolder;
+            }
+        }
+    }
+
+    .contacto-imagen {
+        img {
+            width: 100%;
+            padding: 2rem 0;
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+/* estilos de footer */
+
+footer {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: $color-secundario;
+
+    .redes-sociales-footer {
+        display: flex;
+        justify-content: center;
+        
+        a {
+            color: $color-terciario;
+            text-align: center;
+            display: block;
+            padding: 2px ;
+            border-radius: 3px;
+            font-size: $fonts-rrss;
+            margin: 0 10px;
+        }
+    }
+
+    .copyrights {
+        text-align: center;
+        p {
+            font-size: 1rem;
+        }
+    }
+}
+
+// media queries
+
+@import "mediaqueries.scss";
+
+
+
