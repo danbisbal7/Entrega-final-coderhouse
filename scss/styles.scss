@@ -99,7 +99,7 @@ main {
         .aside-titulo {
             margin: 20px;
             h3 {
-                @include estilos-titulos-h3;
+                @extend %estilos-titulos-h3;
             }
         }
 
@@ -117,7 +117,7 @@ main {
 
     .noticias-titulo, .trailers-titulo, .galeria-titulo, .contacto-titulo, .suscribete-titulo {
         h3 {
-            @include estilos-titulos-h3;
+            @extend %estilos-titulos-h3;
         }
     } 
 
@@ -131,7 +131,7 @@ main {
     // estilos de pagina noticias 
     .noticias-main {
         h4 {
-            @include estilos-titulos-h4;
+            @extend %estilos-titulos-h4;
         }
 
         p {
@@ -151,7 +151,7 @@ main {
     }
     .trailers-contenedor-titulo {
         h4 {
-            @include estilos-titulos-h4;
+            @extend %estilos-titulos-h4;
             margin-bottom: 3rem;
             border-bottom: solid 2px $color-terciario
         }
