@@ -1,0 +1,65 @@
+// media queries version Tablet
+
+// hojas secundarias
+@import "variables.scss";
+
+/* estilos version tablet */
+
+@media screen and (min-width:768px) {
+    header {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        height: 25vh;
+        .encabezado-titulo {
+            text-align: center;
+            width: 50%;
+            margin-bottom: 1.5rem;
+            h1 {
+                font-size: $titulo-principal-tablet;
+            }
+
+            img {
+                width: 55px;
+                height: 55px;
+            }
+
+            h2 {
+                font-size: $subtitulo-principal-tablet;
+            }
+        }
+        .suscripcion-boton, .menu-navegacion {
+            display: none;
+        }
+        .redes-sociales {
+            display: block;
+        }
+        .redes-sociales {
+            a {
+                color: $color-terciario;
+                text-align: center;
+                display: inline-block;
+                border-radius: 3px;
+                font-size: $fonts-rrss-tablet;
+                margin: 0 10px;
+            }
+            a:hover{
+                @include hover-enlaces;
+            }
+
+        }
+        
+    }
+
+    // estilos index - main tablet 
+
+
+    // estilos del footer tablet
+
+    footer {
+        height: 10vh;
+        .redes-sociales-footer {
+            display: none;
+        }
+    }
+}

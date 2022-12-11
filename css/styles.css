@@ -162,6 +162,43 @@ footer {
     footer .copyrights p {
       font-size: 1rem; }
 
+/* estilos version tablet */
+@media screen and (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 25vh; }
+    header .encabezado-titulo {
+      text-align: center;
+      width: 50%;
+      margin-bottom: 1.5rem; }
+      header .encabezado-titulo h1 {
+        font-size: 50px; }
+      header .encabezado-titulo img {
+        width: 55px;
+        height: 55px; }
+      header .encabezado-titulo h2 {
+        font-size: 25px; }
+    header .suscripcion-boton, header .menu-navegacion {
+      display: none; }
+    header .redes-sociales {
+      display: block; }
+    header .redes-sociales a {
+      color: darkslategray;
+      text-align: center;
+      display: inline-block;
+      border-radius: 3px;
+      font-size: 2rem;
+      margin: 0 10px; }
+    header .redes-sociales a:hover {
+      transform: scale(0.9);
+      border-bottom: solid 2px grey; }
+  footer {
+    height: 10vh; }
+    footer .redes-sociales-footer {
+      display: none; } }
+
 /* estilos version desktop */
 @media screen and (min-width: 1024px) {
   header {
@@ -285,7 +322,11 @@ footer {
     margin-bottom: 30px; }
     main section .contacto-box-uno p {
       font-size: 1.5rem; }
-  footer {
-    height: 10vh; }
-    footer .redes-sociales-footer {
-      display: none; } }
+  /*footer {
+            height: 10vh;
+            .redes-sociales-footer {
+                display: none;
+            }
+        }*/ }
+
+/*@import "mediaqueries.scss";*/

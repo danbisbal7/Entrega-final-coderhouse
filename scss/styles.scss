@@ -223,7 +223,9 @@ footer {
 
 // media queries
 
-@import "mediaqueries.scss";
+@import "mediaqueries/tablet";
+@import "mediaqueries/desktop";
+/*@import "mediaqueries.scss";*/
 
 
 
