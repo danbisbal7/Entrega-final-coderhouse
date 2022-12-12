@@ -101,6 +101,11 @@
         }       
         }
 
+        .barra-lateral {
+            height: auto;
+            overflow: visible;
+        }
+
         .aside-noticia {
             img {
                 @include img-adaptable;
@@ -196,12 +201,4 @@
         
     }
 
-        // estilos del footer desktop
-
-        /*footer {
-            height: 10vh;
-            .redes-sociales-footer {
-                display: none;
-            }
-        }*/
 }

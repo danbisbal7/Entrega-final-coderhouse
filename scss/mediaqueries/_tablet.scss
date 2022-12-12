@@ -52,7 +52,86 @@
     }
 
     // estilos index - main tablet 
+    main {
+        .main-index {
+            display: grid;
+            justify-items: center;
+            grid-template-columns: 65% 30%;
+            grid-template-rows: auto;
+            grid-column-gap: 5%;
+            .main-thumb {
+                height: 750px;
+                img {
+                   @include img-adaptable;
+                }
+            }
+        }
+        .barra-lateral {
+            height: 1100px;
+            overflow: auto;
+        }
 
+        // titulos de pages tablet
+        .noticias-titulo,
+        .trailers-titulo,
+        .galeria-titulo,
+        .contacto-titulo,
+        .suscribete-titulo,
+        .aside-titulo {
+            h3 {
+                font-size: $titulos-pages-tablet;
+            }
+        }
+
+        // estilos noticias - main tablet
+        .noticias-main {
+            display: grid;
+            grid-template-columns: 30% 65%;
+            grid-template-rows: auto;
+            grid-column-gap: 5%;
+            align-items: center;
+            .noticias-main-img {
+                height: 300px;
+                img {
+                    @include img-adaptable;
+                    padding-bottom: 2rem;
+                }
+            }
+        }
+
+        // estilos trailers - main tablet
+        .trailers-contenedor-video {
+            iframe {
+                margin-top: 3rem;
+            }
+        }
+
+        // estilos galeria - main tablet
+        .galeria-contenedor {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 30% 30% 30%;
+            grid-column-gap: 2rem;
+            grid-row-gap: 2rem;
+
+            .galeria-contenedor-box {
+                .galeria-contenedor-foto {
+                    height: 325px;
+                    img {
+                        @include img-adaptable;
+                    }
+                }
+                .galeria-contenedor-descripcion {
+                    p {
+                        height: 220px;
+                    }
+                }
+            }
+
+        }
+
+
+    }
 
     // estilos del footer tablet
 

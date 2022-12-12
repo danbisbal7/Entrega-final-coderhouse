@@ -81,9 +81,11 @@ main {
     justify-content: center;
     padding: 2rem;
 
-    .main-texto p {
-        text-align: justify;
-        padding: 1rem 0;
+    .main-texto {
+        p {
+            text-align: justify;
+            padding: 1rem 0;
+        }
     }
 
 
