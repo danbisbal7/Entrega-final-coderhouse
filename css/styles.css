@@ -36,6 +36,12 @@ header {
   text-align: center;
   justify-content: space-around;
   height: 20vh; }
+  header a {
+    text-decoration: none;
+    color: black; }
+  header a:hover {
+    text-decoration: none;
+    color: black; }
   header .encabezado-titulo {
     display: grid;
     grid-template-columns: 2fr 1fr;
