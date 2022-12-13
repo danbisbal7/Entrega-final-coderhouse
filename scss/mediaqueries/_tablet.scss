@@ -76,7 +76,6 @@
         .trailers-titulo,
         .galeria-titulo,
         .contacto-titulo,
-        .suscribete-titulo,
         .aside-titulo {
             h3 {
                 font-size: $titulos-pages-tablet;
@@ -95,6 +94,12 @@
                 img {
                     @include img-adaptable;
                     padding-bottom: 2rem;
+                }
+            }
+            .noticias-main-contenido {
+                p {
+                    padding-left: 30px;
+                    padding-right: 30px;
                 }
             }
         }

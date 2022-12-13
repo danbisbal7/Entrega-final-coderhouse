@@ -125,7 +125,7 @@ main {
 
     // titulos de pages
 
-    .noticias-titulo, .trailers-titulo, .galeria-titulo, .contacto-titulo, .suscribete-titulo {
+    .noticias-titulo, .trailers-titulo, .galeria-titulo, .contacto-titulo {
         h3 {
             @extend %estilos-titulos-h3;
         }
@@ -228,7 +228,7 @@ footer {
 
 @import "mediaqueries/tablet";
 @import "mediaqueries/desktop";
-/*@import "mediaqueries.scss";*/
+
 
 
 
