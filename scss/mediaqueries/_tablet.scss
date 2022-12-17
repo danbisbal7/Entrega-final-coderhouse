@@ -76,15 +76,22 @@
             }
         }
 
+        .noticias-main-contenido,
+        .trailers-contenedor-titulo {
+            h4 {
+                font-size: $titulos-pages-tablet;
+            }
+        }
+
         // estilos noticias - main tablet
         .noticias-main {
             display: grid;
-            grid-template-columns: 30% 65%;
+            grid-template-columns: 40% 55%;
             grid-template-rows: auto;
             grid-column-gap: 5%;
             align-items: center;
             .noticias-main-img {
-                height: 300px;
+                height: 500px;
                 img {
                     @include img-adaptable;
                     padding-bottom: 2rem;
