@@ -1,4 +1,6 @@
 %estilos-titulos-h3 {
+    color: $color-sombra;
+    font-family: $font-titulos;
     font-size: $titulos-pages;
     text-align: center;
     text-shadow: 2px 2px 6px $color-terciario;
@@ -9,6 +11,8 @@
 }
 
 %estilos-titulos-h4 {
+    color: $color-sombra;
+    font-family: $font-titulos;
     text-align: center;
     text-shadow: 1px 1px 2px $color-terciario;
     font-size: $subtitulos-pages;
