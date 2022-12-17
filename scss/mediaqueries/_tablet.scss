@@ -53,7 +53,7 @@
 
     // estilos index - main tablet 
     main {
-        .main-index {
+        /*.main-index {
             display: grid;
             justify-items: center;
             grid-template-columns: 65% 30%;
@@ -69,6 +69,17 @@
         .barra-lateral {
             height: 1100px;
             overflow: auto;
+        }*/
+
+        aside {
+            .aside-noticia-box {
+                display: grid;
+                justify-items: center;
+                grid-template-columns: 45% 45%;
+                grid-template-rows: 2fr;
+                grid-column-gap: 10%;
+                row-gap: 5%;
+            }
         }
 
         // titulos de pages tablet

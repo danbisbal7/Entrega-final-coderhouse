@@ -102,17 +102,20 @@
         }
 
         .barra-lateral {
-            height: auto;
-            overflow: visible;
-        }
-
-        .aside-noticia {
-            img {
-                @include img-adaptable;
-            }
-
-            p {
-                height: 272px;
+            aside {
+                .aside-noticia-box {
+                    display: flex;
+                    flex-direction: column;
+                    .aside-noticia {
+                        img {
+                            @include img-adaptable;
+                        }
+            
+                        p {
+                            height: 272px;
+                        }
+                    }
+                }
             }
         }
 
