@@ -53,23 +53,6 @@
 
     // estilos index - main tablet 
     main {
-        /*.main-index {
-            display: grid;
-            justify-items: center;
-            grid-template-columns: 65% 30%;
-            grid-template-rows: auto;
-            grid-column-gap: 5%;
-            .main-thumb {
-                height: 750px;
-                img {
-                   @include img-adaptable;
-                }
-            }
-        }
-        .barra-lateral {
-            height: 1100px;
-            overflow: auto;
-        }*/
 
         aside {
             .aside-noticia-box {

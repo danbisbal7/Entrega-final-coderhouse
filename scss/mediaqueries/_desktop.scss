@@ -93,12 +93,7 @@
                 img {
                    @include img-adaptable;
                 }
-            }
-        .main-texto {
-            p {
-                height: 176px;;
-            }
-        }       
+            }    
         }
 
         .barra-lateral {
@@ -106,14 +101,12 @@
                 .aside-noticia-box {
                     display: flex;
                     flex-direction: column;
+                    gap: 30px;
                     .aside-noticia {
                         img {
                             @include img-adaptable;
                         }
-            
-                        p {
-                            height: 272px;
-                        }
+        
                     }
                 }
             }

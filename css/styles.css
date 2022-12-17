@@ -170,69 +170,51 @@ footer {
     header .redes-sociales a:hover {
       transform: scale(0.9);
       border-bottom: solid 2px grey; }
-  main {
-    /*.main-index {
-            display: grid;
-            justify-items: center;
-            grid-template-columns: 65% 30%;
-            grid-template-rows: auto;
-            grid-column-gap: 5%;
-            .main-thumb {
-                height: 750px;
-                img {
-                   @include img-adaptable;
-                }
-            }
-        }
-        .barra-lateral {
-            height: 1100px;
-            overflow: auto;
-        }*/ }
-    main aside .aside-noticia-box {
-      display: grid;
-      justify-items: center;
-      grid-template-columns: 45% 45%;
-      grid-template-rows: 2fr;
-      grid-column-gap: 10%;
-      row-gap: 5%; }
-    main .noticias-titulo h3,
-    main .trailers-titulo h3,
-    main .galeria-titulo h3,
-    main .contacto-titulo h3,
-    main .aside-titulo h3 {
-      font-size: 2.5rem; }
-    main .noticias-main {
-      display: grid;
-      grid-template-columns: 30% 65%;
-      grid-template-rows: auto;
-      grid-column-gap: 5%;
-      align-items: center; }
-      main .noticias-main .noticias-main-img {
-        height: 300px; }
-        main .noticias-main .noticias-main-img img {
-          object-fit: cover;
-          height: 100%;
-          width: 100%;
-          padding-bottom: 2rem; }
-      main .noticias-main .noticias-main-contenido p {
-        padding-left: 30px;
-        padding-right: 30px; }
-    main .trailers-contenedor-video iframe {
-      margin-top: 3rem; }
-    main .galeria-contenedor {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 30% 30% 30%;
-      grid-column-gap: 2rem;
-      grid-row-gap: 2rem; }
-      main .galeria-contenedor .galeria-contenedor-box .galeria-contenedor-foto {
-        height: 290px; }
-        main .galeria-contenedor .galeria-contenedor-box .galeria-contenedor-foto img {
-          object-fit: cover;
-          height: 100%;
-          width: 100%; }
-      main .galeria-contenedor .galeria-contenedor-box .galeria-contenedor-descripcion p {
-        height: 220px; }
+  main aside .aside-noticia-box {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 2fr;
+    grid-column-gap: 10%;
+    row-gap: 5%; }
+  main .noticias-titulo h3,
+  main .trailers-titulo h3,
+  main .galeria-titulo h3,
+  main .contacto-titulo h3,
+  main .aside-titulo h3 {
+    font-size: 2.5rem; }
+  main .noticias-main {
+    display: grid;
+    grid-template-columns: 30% 65%;
+    grid-template-rows: auto;
+    grid-column-gap: 5%;
+    align-items: center; }
+    main .noticias-main .noticias-main-img {
+      height: 300px; }
+      main .noticias-main .noticias-main-img img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        padding-bottom: 2rem; }
+    main .noticias-main .noticias-main-contenido p {
+      padding-left: 30px;
+      padding-right: 30px; }
+  main .trailers-contenedor-video iframe {
+    margin-top: 3rem; }
+  main .galeria-contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30% 30% 30%;
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem; }
+    main .galeria-contenedor .galeria-contenedor-box .galeria-contenedor-foto {
+      height: 290px; }
+      main .galeria-contenedor .galeria-contenedor-box .galeria-contenedor-foto img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%; }
+    main .galeria-contenedor .galeria-contenedor-box .galeria-contenedor-descripcion p {
+      height: 220px; }
   footer {
     height: 10vh; }
     footer .redes-sociales-footer {
@@ -303,17 +285,14 @@ footer {
         object-fit: cover;
         height: 100%;
         width: 100%; }
-    main .main-index .main-texto p {
-      height: 176px; }
   main .barra-lateral aside .aside-noticia-box {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    gap: 30px; }
     main .barra-lateral aside .aside-noticia-box .aside-noticia img {
       object-fit: cover;
       height: 100%;
       width: 100%; }
-    main .barra-lateral aside .aside-noticia-box .aside-noticia p {
-      height: 272px; }
   main .noticias-titulo h3,
   main .trailers-titulo h3,
   main .galeria-titulo h3,
