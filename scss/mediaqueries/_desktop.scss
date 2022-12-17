@@ -87,9 +87,9 @@
             justify-items: center;
             grid-template-columns: 65% 30%;
             grid-template-rows: auto;
-            grid-column-gap: 5%;
+            column-gap: 5%;
             .main-thumb {
-                height: 995px;
+                height: 1000px;
                 img {
                    @include img-adaptable;
                 }
@@ -123,21 +123,24 @@
                 font-size: $titulos-pages-desktop;
             }
         }
+
+        .noticias-main-contenido,
+        .trailers-contenedor-titulo {
+            h4 {
+                font-size: $titulos-pages-desktop;
+            }
+        }
     
         // estilos noticias - main desktop 
     
         .noticias-main {
             display: grid;
-            grid-template-columns: 20% 75%;
+            grid-template-columns: 30% 65%;
             grid-template-rows: auto;
             grid-column-gap: 5%;
             align-items: center;
             .noticias-main-img {
-                height: 300px;
-                img {
-                    @include img-adaptable;
-                    padding-bottom: 2rem;
-                }
+                height: 400px;
             }
         }
 
