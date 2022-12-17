@@ -208,13 +208,13 @@ footer {
     grid-column-gap: 2rem;
     grid-row-gap: 2rem; }
     main .galeria-contenedor .galeria-contenedor-box .galeria-contenedor-foto {
-      height: 290px; }
+      height: 500px; }
       main .galeria-contenedor .galeria-contenedor-box .galeria-contenedor-foto img {
         object-fit: cover;
         height: 100%;
         width: 100%; }
     main .galeria-contenedor .galeria-contenedor-box .galeria-contenedor-descripcion p {
-      height: 220px; }
+      height: 250px; }
   footer {
     height: 10vh; }
     footer .redes-sociales-footer {
@@ -325,14 +325,12 @@ footer {
     grid-template-rows: 50% 50%;
     grid-column-gap: 2rem;
     grid-row-gap: 2rem; }
-    main .galeria-contenedor .galeria-contenedor-box .galeria-contenedor-foto {
-      height: 325px; }
-      main .galeria-contenedor .galeria-contenedor-box .galeria-contenedor-foto img {
-        object-fit: cover;
-        height: 100%;
-        width: 100%; }
+    main .galeria-contenedor .galeria-contenedor-box .galeria-contenedor-foto img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%; }
     main .galeria-contenedor .galeria-contenedor-box .galeria-contenedor-descripcion p {
-      height: 220px; }
+      height: 250px; }
   main .contenedor-contacto {
     display: grid;
     grid-template-columns: 45% 45%;

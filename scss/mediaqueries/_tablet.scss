@@ -115,14 +115,14 @@
 
             .galeria-contenedor-box {
                 .galeria-contenedor-foto {
-                    height: 290px;
+                    height: 500px;
                     img {
                         @include img-adaptable;
                     }
                 }
                 .galeria-contenedor-descripcion {
                     p {
-                        height: 220px;
+                        height: 250px;
                     }
                 }
             }
