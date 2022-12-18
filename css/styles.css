@@ -88,10 +88,9 @@ main {
   main img {
     box-shadow: 2px 2px 7px 1px #000000; }
   main .main-texto {
-    padding-top: 2rem; }
+    padding-top: 1rem; }
     main .main-texto p {
-      text-align: justify;
-      padding: 1rem 0; }
+      text-align: justify; }
   main aside {
     background-color: #FF7F11;
     display: flex;
@@ -300,7 +299,7 @@ footer {
     grid-template-rows: auto;
     column-gap: 5%; }
     main .main-index .main-thumb {
-      height: 1000px; }
+      height: 1200px; }
       main .main-index .main-thumb img {
         object-fit: cover;
         height: 100%;
@@ -328,7 +327,7 @@ footer {
     column-gap: 5%;
     align-items: center; }
     main .contenedor-noticia-box .noticias-main .noticias-main-img {
-      height: 400px; }
+      height: 450px; }
   main .trailers-contenedor {
     display: grid;
     grid-template-columns: 45% 45%;

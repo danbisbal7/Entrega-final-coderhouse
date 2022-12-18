@@ -88,7 +88,7 @@
             grid-template-rows: auto;
             column-gap: 5%;
             .main-thumb {
-                height: 1000px;
+                height: 1200px;
                 img {
                    @include img-adaptable;
                 }
@@ -139,7 +139,7 @@
                 column-gap: 5%;
                 align-items: center;
                 .noticias-main-img {
-                    height: 400px;
+                    height: 450px;
                 }
             }
         }
