@@ -15,14 +15,15 @@
 // nesting 
 
 body {
-    background-color: $color-principal;
+    background-color: $color-body;
     font-family: 'Montserrat', sans-serif;
+    color: $color-black;
 }
 
 /* estilos del header */
 
 header {
-    background-color: $color-secundario;
+    background-color: $color-black;
     padding: 10px;
     display: block;
     display: flex;
@@ -34,11 +35,11 @@ header {
 
     a {
         text-decoration: none;
-        color: black;
+        color: $color-font-header;
     }
     a:hover{
         text-decoration: none;
-        color: black;
+        color: $color-font-header;
 
     }
     .encabezado-titulo {
@@ -49,11 +50,11 @@ header {
         font-family: $font-titulos;
         h1 {
             font-size: $titulo-principal;
-            text-shadow: 2px 2px 5px $color-terciario;
+            text-shadow: 1px 1px 1px $color-orange;
             font-weight: bold;
             a {
                 text-decoration: none;
-                color: $color-sombra;
+                color: $color-font-header;
             }
         }
         img {
@@ -74,7 +75,12 @@ header {
     
         h2 {
             font-size: $subtitulo-principal;
-            text-shadow: 2px 2px 5px $color-terciario;
+            text-shadow: 1px 1px 1px $color-orange;
+        }
+    }
+    .dropdown {
+        .btn {
+            background-color: $color-orange;
         }
     }
     .redes-sociales, .suscripcion-boton, .menu-navegacion {
@@ -104,7 +110,7 @@ main {
     // estilos del index - aside 
 
     aside {
-        background-color: $color-sub-hoover;
+        background-color: $color-orange;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -144,7 +150,7 @@ main {
 
     // estilos de pagina noticias 
     .noticias-main {
-        border-bottom: solid 2px $color-terciario;
+        border-bottom: solid 2px $color-black;
         .noticias-main-contenido {
             h4 {
                 @extend %estilos-titulos-h4;
@@ -169,7 +175,7 @@ main {
         h4 {
             @extend %estilos-titulos-h4;
             margin-bottom: 3rem;
-            border-bottom: solid 2px $color-terciario
+            border-bottom: solid 2px $color-black;
         }
     }
 
@@ -179,7 +185,7 @@ main {
         p {
             text-align: justify;
             margin-bottom: 3rem;
-            border-bottom: solid 2px $color-terciario;
+            border-bottom: solid 2px $color-black;
             padding: 2rem 0;
         }
     }
@@ -205,14 +211,16 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    background-color: $color-secundario;
+    background-color: $color-black;
+    color: $color-font-header;
+    font-family: $font-titulos;
 
     .redes-sociales-footer {
         display: flex;
         justify-content: center;
         
         a {
-            color: $color-terciario;
+            color: $color-rrss2;
             text-align: center;
             display: block;
             padding: 2px ;
