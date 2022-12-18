@@ -188,7 +188,7 @@ footer {
     justify-items: center;
     grid-template-columns: 45% 45%;
     grid-template-rows: 2fr;
-    grid-column-gap: 10%;
+    column-gap: 10%;
     row-gap: 5%; }
   main .noticias-titulo h3,
   main .trailers-titulo h3,
@@ -206,7 +206,7 @@ footer {
       display: grid;
       grid-template-columns: 40% 55%;
       grid-template-rows: auto;
-      grid-column-gap: 5%;
+      column-gap: 5%;
       align-items: center; }
       main .contenedor-noticia-box .noticias-main .noticias-main-img {
         height: 500px;
@@ -224,10 +224,10 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 30% 30% 30%;
-    grid-column-gap: 2rem;
-    grid-row-gap: 2rem; }
+    column-gap: 2rem;
+    row-gap: 5%; }
     main .galeria-contenedor .galeria-contenedor-box .galeria-contenedor-foto {
-      height: 500px; }
+      height: 620px; }
       main .galeria-contenedor .galeria-contenedor-box .galeria-contenedor-foto img {
         object-fit: cover;
         height: 100%;
@@ -321,7 +321,7 @@ footer {
     display: grid;
     grid-template-columns: 30% 65%;
     grid-template-rows: auto;
-    grid-column-gap: 5%;
+    column-gap: 5%;
     align-items: center; }
     main .contenedor-noticia-box .noticias-main .noticias-main-img {
       height: 400px; }
@@ -329,15 +329,15 @@ footer {
     display: grid;
     grid-template-columns: 45% 45%;
     grid-template-rows: auto auto;
-    grid-column-gap: 10%; }
+    column-gap: 10%; }
     main .trailers-contenedor .trailers-contenedor-titulo h4 {
       height: 92px; }
   main .galeria-contenedor {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 50% 50%;
-    grid-column-gap: 2rem;
-    grid-row-gap: 2rem; }
+    column-gap: 2rem;
+    row-gap: 2rem; }
     main .galeria-contenedor .galeria-contenedor-box .galeria-contenedor-foto img {
       object-fit: cover;
       height: 100%;
@@ -348,4 +348,4 @@ footer {
     display: grid;
     grid-template-columns: 45% 45%;
     grid-template-rows: auto;
-    grid-column-gap: 10%; } }
+    column-gap: 10%; } }
