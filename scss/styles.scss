@@ -35,11 +35,11 @@ header {
 
     a {
         text-decoration: none;
-        color: $color-font-header;
+        color: $color-font-white;
     }
     a:hover{
         text-decoration: none;
-        color: $color-font-header;
+        color: $color-font-white;
 
     }
     .encabezado-titulo {
@@ -54,7 +54,7 @@ header {
             font-weight: bold;
             a {
                 text-decoration: none;
-                color: $color-font-header;
+                color: $color-font-white;
             }
         }
         img {
@@ -100,6 +100,7 @@ main {
         box-shadow: 2px 2px 7px 1px #000000;
     }
     .main-texto {
+        padding-top: 2rem;
         p {
             text-align: justify;
             padding: 1rem 0;
@@ -202,6 +203,14 @@ main {
         }
     }
 
+    .contacto-box-dos {
+        .form-group {
+            .btn {
+                background-color: $color-orange;
+            }
+        }
+    }
+
 }
 
 /* estilos de footer */
@@ -212,7 +221,7 @@ footer {
     flex-direction: column;
     justify-content: flex-end;
     background-color: $color-black;
-    color: $color-font-header;
+    color: $color-font-white;
     font-family: $font-titulos;
 
     .redes-sociales-footer {
@@ -220,7 +229,7 @@ footer {
         justify-content: center;
         
         a {
-            color: $color-rrss2;
+            color: $color-orange;
             text-align: center;
             display: block;
             padding: 2px ;

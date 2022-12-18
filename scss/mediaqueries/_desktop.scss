@@ -58,12 +58,12 @@
                 font-family: $font-titulos;
                 a {
                     text-decoration: none;
-                    color: $color-rrss;
+                    color: $color-font-white;
                     text-shadow: 1px 1px 1px $color-orange;
                     font-weight: bold;
                 }
                 a:hover{
-                    color: $color-rrss;
+                    color: $color-font-white;
                 }
             }
             li:hover {
